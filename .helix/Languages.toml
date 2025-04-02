@@ -1,0 +1,8 @@
+[[language]]
+name = "rust"
+
+[[language-server.rust-analyzer.config.cargo]]
+extraEnv = ["RUST_TARGET_PATH=targets"]
+
+[[language-server.rust-analyzer.config.check]]
+targets = ["x86_64-unknown-kernel", "i686-unknown-kernel", "aarch64-unknown-kernel"]
